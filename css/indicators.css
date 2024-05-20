@@ -1,0 +1,32 @@
+.tag-status-indicator {
+  display: inline-flex;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: plum;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+.tag-status-indicator--not-started {
+  background-color: #b10e1c;
+}
+
+.tag-status-indicator--in-progress {
+  background-color: #0063b1;
+}
+
+.tag-status-indicator--completed {
+  background-color: #107c10;
+}
+
+.tag-status-indicator--returned {
+  background-color: #744da9;
+}
+.tag-status-indicator--disapproved {
+  background-color: #4c4a48;
+}
